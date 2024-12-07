@@ -30,14 +30,14 @@
 
 ## Description 📑
 
-This project is an AI-powered agent built with NestJS, designed to interact intelligently with users by leveraging real-time location data and weather information. It retrieves the user's exact location and fetches up-to-date weather details for their region, ensuring relevant and personalized responses. The application integrates with OpenAI's chatbot to process user input and generate thoughtful replies.
+This project is an AI-powered agent built with NestJS, designed to interact intelligently with users by leveraging real-time location data and weather information. It retrieves the user's exact location and fetches up-to-date weather details for their region, ensuring relevant and personalized responses. The application integrates with the OpenAI API to process user input and generate thoughtful replies.
 
 The project follows **Clean Code** principles to ensure readability, maintainability, and scalability. The architecture adheres to **Clean Architecture** by separating concerns into distinct modules, such as controllers, services, and use cases, promoting a clear structure and easier testability. **Dependency Injection** is used extensively to manage dependencies between components, improving flexibility and decoupling, making the codebase more modular and easier to maintain.
 
 ### Core Features ⚙️
 
 - **JWT Authentication**: Protects sensitive routes and ensures that only authenticated users can access chatbot features.
-- **OpenAI Chatbot Integration**: Processes user input and generates responses using OpenAI’s API.
+- **OpenAI API Integration**: Processes user input and generates responses using the OpenAI API.
 - **Weather Information**: Retrieves weather data using an external weather service.
 - **Location-Based Services**: Uses geolocation services to provide location-based information.
 - **Modular Design**: The application follows a modular structure, separating domain logic, use cases, infrastructure, and guards.
@@ -141,7 +141,7 @@ The application uses JWT tokens to secure its routes. A valid JWT token must be 
 
 ### OpenAI Chat Agent
 
-The application integrates with OpenAI's API to provide responses to user input. The `OpenAIChatAgentService` handles communication with the OpenAI API.
+The application integrates with the OpenAI API to provide responses to user input. The `OpenAIChatAgentService` handles communication with the OpenAI API.
 
 ### Weather Service
 
@@ -179,7 +179,9 @@ Here are a few helpful resources for developers working with NestJS:
 ## Stay in Touch 💬
 
 - Author - [Romain Portanguen](https://www.linkedin.com/in/romain-portanguen/)
-- Website - [https://romain-portanguen.netlify.app](https://romain-portanguen.netlify.app/)
+-
+
+ Website - [https://romain-portanguen.netlify.app](https://romain-portanguen.netlify.app/)
 - Gmail - [portanguenr@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=portanguenr@gmail.com)
 
 ## License 🪪
