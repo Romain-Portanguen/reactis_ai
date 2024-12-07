@@ -179,9 +179,7 @@ Here are a few helpful resources for developers working with NestJS:
 ## Stay in Touch 💬
 
 - Author - [Romain Portanguen](https://www.linkedin.com/in/romain-portanguen/)
--
-
- Website - [https://romain-portanguen.netlify.app](https://romain-portanguen.netlify.app/)
+- Website - [https://romain-portanguen.netlify.app](https://romain-portanguen.netlify.app/)
 - Gmail - [portanguenr@gmail.com](https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=portanguenr@gmail.com)
 
 ## License 🪪
